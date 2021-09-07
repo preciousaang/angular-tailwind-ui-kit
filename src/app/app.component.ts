@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
+  dialog: boolean=false;
   title = 'PlayGround';
+
+  onButtonClicked(){
+    this.dialog = !this.dialog;
+  }
 }

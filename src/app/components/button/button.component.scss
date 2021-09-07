@@ -1,0 +1,19 @@
+button {
+  @apply p-2 shadow-md rounded text-white font-bold;
+
+  &.large {
+    @apply px-5;
+  }
+
+  &.medium {
+    @apply px-3;
+  }
+
+  &.primary {
+    @apply bg-blue-500;
+  }
+
+  &.danger {
+    @apply bg-red-500 hover:bg-red-600 focus:bg-red-700;
+  }
+}
